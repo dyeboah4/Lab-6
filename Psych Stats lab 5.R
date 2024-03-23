@@ -207,4 +207,74 @@
       (1361 observations deleted due to missingness)
       Multiple R-squared:  0.04498,	Adjusted R-squared:  0.0447 
       F-statistic: 161.1 on 27 and 92346 DF,  p-value: < 2.2e-16 
+ model_2 <- lm(MARIJAN1 ~ Age_midpt + FOODSTMP + INCOME3 + EDUCA, data = brfss_marijan)
+> summary(model_2) 
+
+Call:
+lm(formula = MARIJAN1 ~ Age_midpt + FOODSTMP + INCOME3 + EDUCA, 
+    data = brfss_marijan)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-7.916 -2.717 -1.569 -0.592 30.749 
+
+Coefficients:
+                                                                   Estimate Std. Error t value Pr(>|t|)
+(Intercept)                                                        7.082208   1.028803   6.884 5.88e-12
+Age_midpt                                                         -0.070459   0.001691 -41.656  < 2e-16
+FOODSTMPno                                                        -1.476704   0.110565 -13.356  < 2e-16
+INCOME3Less than $15,000 ($10,000 to less than $15,000)            0.429675   0.266328   1.613 0.106678
+INCOME3Less than $20,000 ($15,000 to less than $20,000)            0.165011   0.250441   0.659 0.509975
+INCOME3Less than $25,000 ($20,000 to less than $25,000)            0.424252   0.237294   1.788 0.073802
+INCOME3Less than $35,000 ($25,000 to less than $35,000)            0.074030   0.220040   0.336 0.736542
+INCOME3Less than $50,000 ($35,000 to less than $50,000)           -0.092629   0.220173  -0.421 0.673969
+INCOME3Less than $75,000 ($50,000 to less than $75,000)           -0.327888   0.218819  -1.498 0.134023
+INCOME3Less than $100,000 ($75,000 to less than $100,000)         -0.786129   0.223096  -3.524 0.000426
+INCOME3Less than $150,000 ($100,000 to less than $150,000)        -0.963451   0.224303  -4.295 1.75e-05
+INCOME3Less than $200,000 ($150,000 to less than $200,000)        -1.228099   0.246556  -4.981 6.34e-07
+INCOME3$200,000 or more                                           -1.081618   0.249446  -4.336 1.45e-05
+INCOME3Dont know/Not sure                                         -0.483725   0.225142  -2.149 0.031675
+INCOME3Refused                                                    -0.936549   0.226767  -4.130 3.63e-05
+EDUCAGrades 1 through 8 (Elementary)                              -0.413769   1.034871  -0.400 0.689286
+EDUCAGrades 9 through 11 (Some high school)                        1.883793   1.021382   1.844 0.065136
+EDUCAGrade 12 or GED (High school graduate)                        1.131268   1.011943   1.118 0.263607
+EDUCACollege 1 year to 3 years (Some college or technical school)  1.011711   1.012010   1.000 0.317458
+EDUCACollege 4 years or more (College graduate)                    0.504483   1.012014   0.498 0.618138
+EDUCARefused                                                      -0.080143   1.162656  -0.069 0.945045
+                                                                     
+(Intercept)                                                       ***
+Age_midpt                                                         ***
+FOODSTMPno                                                        ***
+INCOME3Less than $15,000 ($10,000 to less than $15,000)              
+INCOME3Less than $20,000 ($15,000 to less than $20,000)              
+INCOME3Less than $25,000 ($20,000 to less than $25,000)           .  
+INCOME3Less than $35,000 ($25,000 to less than $35,000)              
+INCOME3Less than $50,000 ($35,000 to less than $50,000)              
+INCOME3Less than $75,000 ($50,000 to less than $75,000)              
+INCOME3Less than $100,000 ($75,000 to less than $100,000)         ***
+INCOME3Less than $150,000 ($100,000 to less than $150,000)        ***
+INCOME3Less than $200,000 ($150,000 to less than $200,000)        ***
+INCOME3$200,000 or more                                           ***
+INCOME3Dont know/Not sure                                         *  
+INCOME3Refused                                                    ***
+EDUCAGrades 1 through 8 (Elementary)                                 
+EDUCAGrades 9 through 11 (Some high school)                       .  
+EDUCAGrade 12 or GED (High school graduate)                          
+EDUCACollege 1 year to 3 years (Some college or technical school)    
+EDUCACollege 4 years or more (College graduate)                      
+EDUCARefused                                                         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.922 on 56910 degrees of freedom
+  (36804 observations deleted due to missingness)
+Multiple R-squared:  0.04786,	Adjusted R-squared:  0.04752 
+F-statistic:   143 on 20 and 56910 DF,  p-value: < 2.2e-16
+
       My group was me and Rafeal. For our analysis we wanted to look at income levels and compare it to Marijuana usage. After completing a linear
+regression it was revealed that people in the lower income brackets were more likely to be using marijuana than people in higer income brackets. However,
+I wanted to use the same linear regression this time looking at income levels and Foodstamps. From the first regression model it seems that people who are in 
+poverty (earning less than 35,000 a year) are more likely to use marijuana so it can assumed that poverty correlates wwith marijuana use. However when looking at foodstamps
+people with food stamps are less lieky to use marijuana than people with an income level of less than $35,000. These results are surpising to me because it shows
+that poverty does not neccessarilty mean a person is more likly to use marijuana but instead its just a more popular option for people in the lower income bracket.
+
