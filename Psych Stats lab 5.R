@@ -207,4 +207,4 @@
       (1361 observations deleted due to missingness)
       Multiple R-squared:  0.04498,	Adjusted R-squared:  0.0447 
       F-statistic: 161.1 on 27 and 92346 DF,  p-value: < 2.2e-16 
-      
+      My group was me and Rafeal. For our analysis we wanted to look at income levels and compare it to Marijuana usage. After completing a linear
