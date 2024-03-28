@@ -278,3 +278,9 @@ poverty (earning less than 35,000 a year) are more likely to use marijuana so it
 people with food stamps are less lieky to use marijuana than people with an income level of less than $35,000. These results are surpising to me because it shows
 that poverty does not neccessarilty mean a person is more likly to use marijuana but instead its just a more popular option for people in the lower income bracket.
 
+For the Homework I decided to read the "Examining differences in attentional bias to smoking-related cues among
+black and white cigarette smokers: An event-related potential pilot study" Essentially it looked at Black and White smokers and looked to see if there was a
+psychophysiological and behavioral difference in attentional bias to smoking cues. After having black and white particpants look at smoking related cues, the results showed
+that white smokers had a stronger draw in attention when compared to black smokers. It will be intresting to see if BRFSS data on Marijuana use can extend their findings. 
+BRFSS data also looks at tobacco use so running interactions on Income, education level, adverse child-hood experiences could extend their data. Maybe people of a lower
+income are more suspetible to smoking cues, maybe people in a higher education level can see through smoking cues and have the education on the dangers of tobacco. 
